@@ -75,6 +75,12 @@ tr:hover td {
   align-items: flex-start;
 } */
 
+.novel-details {
+  display: flex;
+  flex-wrap: nowrap; /* prevents wrapping under normal screen sizes */
+  align-items: flex-start;
+}
+
 .novel-text {
   flex: 1;
   min-width: 0;
