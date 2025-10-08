@@ -47,6 +47,7 @@ tr:hover td {
   font-size: 0.95rem;
 }
 
+/*
 .cover {
   width: 100%;
   max-width: 120px;
@@ -55,13 +56,18 @@ tr:hover td {
   margin-bottom: 0.3rem;
   border: 1px solid #ccc;
 }
+*/
 
-
-.novel-details {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+.cover {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  margin-right: 1rem; /* gives more space */
+  margin-bottom: 0.3rem;
+  border: 1px solid #ccc;
+  flex-shrink: 0; /* ensures image keeps its size */
 }
+
 /*
 .novel-details {
   display: flex;
