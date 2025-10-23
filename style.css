@@ -8,11 +8,13 @@ body {
 }
 
 a {
-  color: #0000EE;
+  color: #e2735c; /* heart color from logo */
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
+  color: #b84e3c; /* slightly deeper shade for hover */
   text-decoration: underline;
 }
 
