@@ -49,6 +49,14 @@ tr:hover td {
   font-size: 0.95rem;
 }
 
+.small-gray {
+  font-size: 0.8em;
+  color: gray;
+  position: relative;
+  top: -0.2em;
+  vertical-align: middle;
+  }
+
 
 .cover {
   width: 100%;
