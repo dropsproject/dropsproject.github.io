@@ -24,6 +24,11 @@ table {
   word-wrap: break-word;
 }
 
+table td:last-child {
+  white-space: nowrap;
+  width: 1%;
+}
+
 th, td {
   text-align: left;
   padding: 4px 6px;
