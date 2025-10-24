@@ -76,24 +76,24 @@ tr:hover td {
 
 .novel-details {
   display: flex;
-  flex-wrap: nowrap;
+ flex-wrap: nowrap;
   align-items: flex-start;
 } 
 
   
-
+/*
 .novel-text {
   flex: 1;
   min-width: 0;
 } 
+*/
 
-/*
 .novel-text {
   flex: 1;
   min-width: 0;
   padding-left: 1rem;
 }
-*/
+
 .chapter {
   width: 100%;
   line-height: 1.5;
