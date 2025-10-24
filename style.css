@@ -81,18 +81,19 @@ tr:hover td {
 } 
 
   
-/*
+
 .novel-text {
   flex: 1;
   min-width: 0;
-} */
+} 
 
+/*
 .novel-text {
   flex: 1;
   min-width: 0;
   padding-left: 1rem;
 }
-
+*/
 .chapter {
   width: 100%;
   line-height: 1.5;
@@ -127,11 +128,11 @@ tr:hover td {
   body {
     font-size: 1rem;
   }
-  /*
+  
 .novel-details {
     flex-direction: column;
     align-items: flex-start; 
-  } */
+  } 
 
 
   .cover {
